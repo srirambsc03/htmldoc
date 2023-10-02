@@ -1,0 +1,105 @@
+
+body{
+   background-color: azure;
+   border-right: 300px;
+    border: 1px solid black;
+    width: 900px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.image{
+    height: 1px;   
+}
+.heads{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.input{
+    padding-left: 30px;
+
+}
+h3.bill {
+    text-align: left;
+    padding-left: 30px;
+}
+input{
+    border: none;
+    padding: 2px ;
+    border-bottom:1px groove black;
+    margin-left: 20px;
+    line-height: 30px;
+    width: 350px;
+    
+}
+input:hover{
+    border-style:groove ;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.photo{
+    border: 1px solid black;
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    left: 700px;
+}
+.note{
+    border: 20px;
+    padding-left: 50px;
+    font-family: 'Times New Roman', Times, serif ;
+    color: blue;
+}
+.note1{
+    text-align: left;
+    padding-left: 35px;
+
+}
+b:hover{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+}
+.student{
+    text-align: end;
+    padding-right: 50px;
+}
+table{
+    text-align: center;
+    border-radius: 10px;
+    border: groove;  
+    height: fit-content;
+}
+.tb{
+    position: absolute;
+    width: 400px;
+    text-align: center;
+}
+td{
+    border-radius: 20px;
+}
+th{
+    border-radius: 10px;
+    color: blueviolet;
+}
+label{
+    align-items: end;
+    text-align: left;
+    color: red;
+}
+.check{
+    position: absolute;
+    left: 200px;
+    width: 470px;
+    background-color: #ccc;
+}
+input::placeholder{
+    color: green;
+}
+*{
+    align-items: center;
+    padding: 10px;
+}
